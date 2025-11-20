@@ -3,7 +3,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Live-success)
 ![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Mobile%20%7C%20Desktop-blue)
-![Stack](https://img.shields.io/badge/Stack-Firebase%20%7C%20Supabase%20%7C%20React%20Native-orange)
+![Stack](https://img.shields.io/badge/Stack-Firebase%20%7C%20Supabase%20%7C%20Redis%20%7C%20React%20Native-orange)
 ![AI Tools](https://img.shields.io/badge/AI-Gemini%20%7C%20Dualite%20%7C%20Stitch-purple)
 
 **Portfolyom (GLB)**; mobilya & iç mimari odaklı 3D modelleri, üretim planlama ihtiyaçlarını (mühendislik çizimleri, nesting) ve yapay zekâ destekli içerik üretimini tek çatı altında toplayan hibrit bir ekosistemdir.
@@ -60,6 +60,7 @@ Bu repo, aşağıdaki sistemlerin üst düzey mimarisini, dokümantasyonunu ve *
 Projenin ilerleyen fazlarında artan veri yükü ve mobil ihtiyaçlar için şu teknolojiler devreye alınacaktır:
 * **Dualite & Stitch:** Stitch Design System ile hazırlanan UI'ın, Dualite kullanılarak **React Native** bileşenlerine dönüştürülmesi ve gerçek mobil uygulamaya geçiş.
 * **Supabase Entegrasyonu:** Kullanıcı yönetimi (Auth) ve gerçek zamanlı veri akışının (Realtime DB) Firebase'den Supabase altyapısına taşınması.
+* * **Redis (Caching):** Sık erişilen 3D model verileri ve AI yanıtları için yüksek performanslı önbellekleme (Caching) katmanı.
 * **AI Analiz Mimarisi:** Ücretli üyelik ve analiz raporları için ölçeklenebilir backend yapısının kurulması.
 
 ---
@@ -72,7 +73,7 @@ Projenin ilerleyen fazlarında artan veri yükü ve mobil ihtiyaçlar için şu 
 * **Orta Vadede:**
     * GLB’den otomatik 2D teknik çizim/DXF üretimi.
     * **Dualite** ile mobil uygulama prototipinden gerçek uygulamaya geçiş.
-    * **Supabase** migrasyonu ile gerçek zamanlı veri altyapısı.
+    * **Supabase + Redis** ile yüksek performanslı ve gerçek zamanlı veri altyapısı.
 * **Uzun Vadede:** GLB platformunu üreticiler için bir **3D model marketplace** haline getirmek ve ERP entegrasyonları.
 
 ---
